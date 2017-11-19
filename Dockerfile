@@ -14,5 +14,5 @@ USER main
 
 RUN /home/main/anaconda/envs/python3/bin/pip install --upgrade pip
 RUN /home/main/anaconda/envs/python3/bin/pip install --upgrade sklearn tqdm
-RUN /home/main/anaconda/envs/python3/bin/pip install --upgrade tensorflow
+#RUN /home/main/anaconda/envs/python3/bin/pip install --upgrade tensorflow
 RUN /home/main/anaconda/envs/python3/bin/pip install --upgrade keras
